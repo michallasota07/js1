@@ -6,11 +6,9 @@
     <input type="text" id="cyfra" />
     <input type="submit" value="Sprawdź" onclick="sprawdz()" />
     <div id="wynik"></div>
-
     <script type="text/javascript">
       function sprawdz() {
         let liczba = document.getElementById("cyfra").value;
-
         if (liczba == "") document.getElementById("wynik").innerHTML = "Puste";
         else if (liczba > 0)
           document.getElementById("wynik").innerHTML = "dodatnia";
@@ -23,3 +21,4 @@
     </script>
   </body>
 </html>
+
